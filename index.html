@@ -8,12 +8,14 @@
     <!--CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/ICONA-20230719T171037Z-001/ICONA/IconaGODOComunicazione.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- ENCABEZADO -->
     <header>
-        <a href="index.html"> <img class="logoGodo" src="img/logoGodo.png" alt="Logo de GODO!"></a>
+        <!-- <a href="index.html"> <img class="logoGodo" src="img/logoGodo.png" alt="Logo de GODO!"></a>
         <div id="nav">
             <nav>
                 <ul>
@@ -28,11 +30,49 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
+
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="logoGodo" src="img/logoGodo.png"
+                        alt="Logo de GODO!"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h1 class="offcanvas-title" id="offcanvasNavbarLabel">GODO</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="html/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="html/portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="html/historia.html">Quienes
+                                    somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="html/contactos.html">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <!-- CONTENIDO PRINCIPAL -->
+        <!-- CONTENIDO PRINCIPAL
         <div class="groupHome">
             <div class="titleContainer">
                 <h1>AGENCIA DE MARKETING DIGITAL</h1>
@@ -48,7 +88,28 @@
                 <p> Llevamos la visibilidad de tu brand a otro nivel, llegamos al público target, lo hacemos
                     enamorar e interactuar en modo directo y personal. </p>
             </div>
+        </div> -->
+
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="img/ICONA-20230719T171037Z-001/ICONA/IconaGODOSocialMedia.png" class="d-block mx-lg-auto img-fluid" alt="Icona Social Media"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">GODO Marketing Digital</h1>
+                    <p class="lead">
+                    <p> GODO es una <strong> web agency </strong> en la provincia de Ancona. Realizamos projectos de
+                        comunicación, sitios web, gráficas e imagenes empresariales que marcan.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="html/contactos.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                            Contactanos </a>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
     </main>
     <!-- BOTON VOLVER A HOME -->
     <div>
@@ -60,7 +121,9 @@
         <!-- PIE DE PAGINA -->
         <p class="Footer">© 2023 GODO - Agencia de Marketing Digital Italia</p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
