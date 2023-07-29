@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/ICONA-20230719T171037Z-001/ICONA/IconaGODOComunicazione.png">
+</head>
+
+<body>
+    <!--ENCABEZADO -->
+    <header>
+        <a href="../index.html"> <img class="logoGodo" src="../img/logoGodo.png" alt="Logo de GODO!"></a>
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li> <a class="menuTendina" href="">&equiv;</a>
+                        <ul>
+                            <li> <a href="../index.html"> Home </a> </li>
+                            <li> <a href="servicios.html"> Servicios </a> </li>
+                            <li> <a href="portfolio.html"> Portfolio </a> </li>
+                            <li> <a href="historia.html"> Quienes somos </a> </li>
+                            <li> <a href="contactos.html"> Contactos </a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--FORMULARIO DE CONTACTO -->
+
+    <main>
+        <h2 class="titleContacts">Deja tu mensaje, contáctanos!</h2>
+        <div class="form">
+            <form>
+                <div class="formGroup">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+
+                <div class="formGroup">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido">
+                </div>
+
+                <div class="formGroup">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono">
+                </div>
+
+                <div class="formGroup">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="formGroup">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="servicios">Servicios</label>
+                    <select name="servicios" id="servicios">
+                        <option value="marketing">Web Marketing</option>
+                        <option value="web">Desarrollo Web</option>
+                        <option value="consulta">Consultoría</option>
+                        <option value="cursos">Cursos</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input class="buttonSubmit" type="submit" value="Enviar">
+                    <input class="buttonReset" type="reset" value="Resetear">
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <!-- BOTON VOLVER A HOME -->
+    <div>
+        <a class="buttonIndex" href="../index.html">VOLVER AL INICIO</a>
+    </div>
+
+    <footer>
+        <!--  PIE DE PAGINA -->
+        <p class="Footer">© 2023 GODO - Agencia de Marketing Digital Italia</p>
+    </footer>
+
+</body>
+
+</html>
