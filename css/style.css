@@ -152,7 +152,7 @@ form {
     align-items: center;
 }
 
-@media (max-width 500px) {
+@media (max-width 400px) {
     .servicioBoton {
         justify-content: end;
     }
@@ -171,6 +171,16 @@ form {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.botoncontHome {
+    background-color: #bfd700;
+    padding: 7px 22px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
 }
 
 /* SLIDE DESCRIPCION HOME */
