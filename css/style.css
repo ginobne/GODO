@@ -118,6 +118,14 @@ footer {
     color: black;
     cursor: pointer;
 }
+
+@media (max-width: 400px) {
+    .buttonSubmit {
+      position: relative !important;
+      top: 1rem;
+    } 
+  }
+
 /* 
 .form {
     display: flex;
@@ -150,13 +158,13 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-@media (max-width 400px) {
-    .servicioBoton {
-        justify-content: end;
-    }
-
+.infoContacto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -182,6 +190,8 @@ form {
     color: black;
     cursor: pointer;
 }
+
+
 
 /* SLIDE DESCRIPCION HOME */
 .groupHome {
