@@ -1,0 +1,23 @@
+h1 {
+    margin: 1rem;
+    color: $colorTitulo1;
+    text-align: center;
+}
+
+h2 {
+    margin: 1rem;
+    color: $colorTitulo2;
+    text-align: center;
+}
+
+.titleContacts {
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.titleContainers {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

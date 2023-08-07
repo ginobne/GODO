@@ -1,0 +1,16 @@
+section {
+    .contenedorFormulario {
+        margin: 3rem;
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoContacto {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

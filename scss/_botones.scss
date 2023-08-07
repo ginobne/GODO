@@ -1,0 +1,30 @@
+.buttonSubmit,
+.buttonReset,
+.servicioBoton,
+.botoncontHome {
+    background-color: $bgBoton;
+    padding: $padBoton;
+    border: none;
+    border-radius: 50px;
+    font-size: $fontSizeBoton;
+    color: $colorBoton;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .buttonSubmit {
+      position: relative !important;
+      top: 1rem;
+    } 
+  }
+
+  /* GRAFICA BOTON VOLVER INICIO */
+.buttonIndex {
+    background-color: $bgBoton;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 50px;
+    font-size: $fontSizeBoton;
+    color: $colorBoton;
+    margin-left: 3%;
+}
