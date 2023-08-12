@@ -2,10 +2,8 @@ section {
     .contenedorFormulario {
         margin: auto;
         display: flex;
-        width: 100%;
-        padding: 50px;
-        box-sizing: border-box;
-        overflow: hidden;
+        box-sizing: 50%;
+        justify-content: center;
     }
 
     .infoContacto {
