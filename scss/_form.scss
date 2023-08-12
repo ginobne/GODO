@@ -1,11 +1,11 @@
 section {
     .contenedorFormulario {
-        margin: 3rem;
-        display: grid;
-        grid-template-columns: 2fr;
-        gap: 60px;
-        justify-content: center;
-        align-items: center;
+        margin: auto;
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .infoContacto {

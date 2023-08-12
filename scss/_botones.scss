@@ -11,13 +11,6 @@
     cursor: pointer;
 }
 
-@media (max-width: 400px) {
-    .buttonSubmit {
-      position: relative !important;
-      top: 1rem;
-    } 
-  }
-
   /* GRAFICA BOTON VOLVER INICIO */
 .buttonIndex {
     background-color: $bgBoton;
