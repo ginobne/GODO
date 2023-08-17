@@ -29,7 +29,7 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h1 class="offcanvas-title" id="offcanvasNavbarLabel">GODO</h1>
+                        <h2 class="offcanvas-title" id="offcanvasNavbarLabel">GODO</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -46,8 +46,7 @@
                                     href="../html/portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../html/historia.html">Quienes
-                                    somos</a>
+                                <a class="nav-link active" aria-current="page" href="../html/historia.html">Quienes somos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page"
@@ -65,43 +64,32 @@
     <main>
         <section class="mb-4">
 
-            <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contactanos</h2>
-            <!--Section description-->
+
             <p class="text-center w-responsive mx-auto mb-5"> Tienes preguntas? Nuestro team se contantactara con vos
                 para ayudarte.</p>
-
             <div>
-                <!--Grid column-->
                 <div class="contenedorFormulario">
 
                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                        <!--Grid row-->
                         <div class="row">
 
-                            <!--Grid column-->
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" id="name" name="name" class="form-control">
                                     <label for="name" class="">Tu nombre</label>
                                 </div>
                             </div>
-                            <!--Grid column-->
 
-                            <!--Grid column-->
-                            <div class="col-md-3">
+                            <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" id="email" name="email" class="form-control">
                                     <label for="email" class="">Tu e-mail</label>
                                 </div>
                             </div>
-                            <!--Grid column-->
-
                         </div>
-                        <!--Grid row-->
 
-                        <!--Grid row-->
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
@@ -110,12 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
                         <div class="row">
-
-                            <!--Grid column-->
                             <div class="col-md-6">
 
                                 <div class="md-form">
@@ -123,38 +106,31 @@
                                         class="form-control md-textarea"></textarea>
                                     <label for="message">Tu mensaje</label>
                                 </div>
-
+                                <div>
+                                    <input class="buttonSubmit" type="submit" value="Enviar">
+                                </div>
                             </div>
                         </div>
-                        <!--Grid row-->
-
                     </form>
-
-                    <div>
-                        <input class="buttonSubmit" type="submit" value="Enviar">
-                    </div>
                     <div class="status"></div>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
                 <div class="col-md-3 text-center infoContacto">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
                             <p>Ancona, 60126 ITALIA</p>
                         </li>
-
-                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                            <p>+ 39 371852246</p>
-                        </li>
-
-                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p>info@agenziagodo.com</p>
-                        </li>
+                </div>
+                <div class="col-md-3 text-center infoContacto">
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 39 371852246</p>
+                    </li>
+                </div>
+                <div class="col-md-3 text-center infoContacto">
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>info@agenziagodo.com</p>
+                    </li>
                     </ul>
                 </div>
-                <!--Grid column-->
-
             </div>
 
         </section>
@@ -167,8 +143,8 @@
     </div>
 
     <section class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
+        <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 justify-content-center align-items-center d-flex">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24">
                         <use xlink:href="#bootstrap" />

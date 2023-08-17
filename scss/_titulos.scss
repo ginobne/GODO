@@ -1,18 +1,33 @@
 h1 {
+    display: flex;
     margin: 1rem;
     color: $colorTitulo1;
     text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
 }
 
 h2 {
+    display: flex;
     margin: 1rem;
     color: $colorTitulo2;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+h3 {
+    justify-content: center;
     text-align: center;
 }
 
 .titleContacts {
+    display: flex;
     margin: 15px 15px;
     text-align: center;
+    width: 100%;
 }
 
 .titleContainers {
@@ -20,4 +35,5 @@ h2 {
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }

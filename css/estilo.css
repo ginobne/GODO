@@ -30,13 +30,18 @@ html body header .logoGodo {
   height: auto;
 }
 
-footer {
+section footer {
   background-color: white;
   display: flex;
   padding: 30px 10%;
   justify-content: center;
+  text-align: center;
+  max-width: 100%;
 }
-footer .foot {
+section footer .container {
+  width: 100%;
+}
+section footer .foot {
   cursor: pointer;
 }
 
@@ -51,14 +56,11 @@ footer .foot {
   font-size: 1rem;
   color: black;
   cursor: pointer;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 400px) {
-  .buttonSubmit {
-    position: relative !important;
-    top: 1rem;
-  }
-}
 /* GRAFICA BOTON VOLVER INICIO */
 .buttonIndex {
   background-color: #bfd700;
@@ -71,12 +73,11 @@ footer .foot {
 }
 
 section .contenedorFormulario {
-  margin: 3rem;
-  display: grid;
-  grid-template-columns: 2fr;
-  gap: 60px;
+  display: flex;
+  box-sizing: 100%;
   justify-content: center;
-  align-items: center;
+  width: 100%;
+  padding: 0 5%;
 }
 section .infoContacto {
   display: flex;
@@ -85,20 +86,35 @@ section .infoContacto {
 }
 
 h1 {
+  display: flex;
   margin: 1rem;
   color: #2a2074;
   text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
 }
 
 h2 {
+  display: flex;
   margin: 1rem;
   color: #fa8220;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+h3 {
+  justify-content: center;
   text-align: center;
 }
 
 .titleContacts {
+  display: flex;
   margin: 15px 15px;
   text-align: center;
+  width: 100%;
 }
 
 .titleContainers {
@@ -106,6 +122,7 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 /* CONTENIDO PORTFOLIO */
@@ -135,42 +152,14 @@ main .fotoProducto {
 }
 
 /* GRAFICA SERVICIOS FLEX GRID AREA */
-.contenedorServicios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+main .contenedorServicios {
   gap: 60px;
   margin: 5% 25%;
 }
-
-.servicios {
-  display: flex;
-  flex-direction: column;
+main .imgCarousel {
+  justify-content: center;
   align-items: center;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-}
-
-.servicioImagen {
-  height: 180px;
-  object-fit: contain;
-  border-radius: 100%;
-  margin-bottom: 20px;
-}
-
-.servicioTitulo {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.servicioDescripcion {
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 20px;
+  width: fit-content;
 }
 
 /*  GRAFICA HISTORIA */
@@ -217,14 +206,29 @@ div#nav li ul {
 div#nav li:hover ul {
   display: block;
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   width: auto;
   height: auto;
   padding: 0;
   margin: 0 0 0 -1px;
   border-radius: 5px;
-  background: whitesmoke;
+  background: #bfd700;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  z-index: 5;
+}
+
+/* GRAFICA SERVICIOS FLEX GRID AREA */
+main .contenedorServicios {
+  gap: 60px;
+  margin: 5% 25%;
+}
+main .imgCarousel {
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
 /*# sourceMappingURL=estilo.css.map */
