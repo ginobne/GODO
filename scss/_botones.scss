@@ -1,16 +1,6 @@
 // GRAFICA BOTONES
 .boton {
-  text-decoration: none;
-  background-color: $bgBoton;
-  padding: $padBoton;
-  border: none;
-  border-radius: 50px;
-  font-size: $fontSizeBoton;
-  color: $colorBoton;
-  cursor: pointer;
-  margin: 1rem;
-  width: 150px;
-  height: 40px;
+  @include estiloBoton;
 }
 
 .botonContactos {
@@ -23,4 +13,5 @@
 
 .boton:hover {
   transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }

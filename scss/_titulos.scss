@@ -1,6 +1,6 @@
 h1 {
     display: flex;
-    margin: 1rem;
+    margin: 1rem auto;
     color: $colorTitulo1;
     text-align: center;
     justify-content: center;
@@ -11,7 +11,7 @@ h1 {
 
 h2 {
     display: flex;
-    margin: 1rem;
+    margin: 1rem auto;
     color: $colorTitulo2;
     text-align: center;
     justify-content: center;
@@ -22,6 +22,7 @@ h2 {
 h3 {
     justify-content: center;
     text-align: center;
+    margin: 1rem auto;
 }
 
 .titleContacts {
