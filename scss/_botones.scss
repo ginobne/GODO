@@ -1,8 +1,5 @@
 // GRAFICA BOTONES
-.buttonSubmit,
-.buttonReset,
-.botoncontHome,
-.buttonIndex {
+.boton {
   text-decoration: none;
   background-color: $bgBoton;
   padding: $padBoton;
@@ -16,20 +13,14 @@
   height: 40px;
 }
 
-.botoncontHome,
-.buttonSubmit {
-  background-color: white;
-  color: black;
+.botonContactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 // HOVER A BOTONES
 
-.botoncontHome:hover,
-.botoncontHome:hover,
-.buttonIndex:hover,
-.buttonReset:hover,
-.buttonSubmit:hover {
-  width: 155px;
-  height: 42px;
+.boton:hover {
+  transform: scale(1.1);
 }

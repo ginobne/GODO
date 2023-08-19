@@ -1,1 +1,23 @@
 /* CONTENIDO PORTFOLIO */
+
+// ESTILO SOBRA IMAGENES
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+// ILUMINACION Y MOVIMIENTO CON MOUSE
+.gallery-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+.gallery-item:hover img {
+    transform: scale(1.1); 
+}

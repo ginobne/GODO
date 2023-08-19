@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ html {
 }
 html body {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: whitesmoke;
   height: 100%;
   font-weight: 1000;
@@ -31,11 +31,20 @@ html body header .logoGodo {
   height: auto;
 }
 html body header .logoGodo:hover {
-  width: 235px;
+  transform: scale(1.1);
 }
 html body .cajaFondo {
   background-color: #bfd700;
   margin-bottom: 5%;
+}
+html body .whatsappIcon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+}
+html body .whatsappIcon:hover {
+  transform: scale(1.1);
 }
 
 section footer {
@@ -49,36 +58,28 @@ section footer .foot {
   cursor: pointer;
 }
 
-.buttonSubmit,
-.buttonReset,
-.botoncontHome,
-.buttonIndex {
+.boton {
   text-decoration: none;
-  background-color: #bfd700;
+  background-color: white;
   padding: 7px 22px;
   border: none;
   border-radius: 50px;
   font-size: 1rem;
-  color: white;
+  color: black;
   cursor: pointer;
   margin: 1rem;
   width: 150px;
   height: 40px;
 }
 
-.botoncontHome,
-.buttonSubmit {
-  background-color: white;
-  color: black;
+.botonContactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.botoncontHome:hover,
-.botoncontHome:hover,
-.buttonIndex:hover,
-.buttonReset:hover,
-.buttonSubmit:hover {
-  width: 155px;
-  height: 42px;
+.boton:hover {
+  transform: scale(1.1);
 }
 
 section .contenedorFormulario {
@@ -143,6 +144,27 @@ h3 {
 }
 
 /* CONTENIDO PORTFOLIO */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
 /* GRAFICA SERVICIOS FLEX GRID AREA */
 .grillaServicios {
   display: grid;
