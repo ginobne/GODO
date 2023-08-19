@@ -3,13 +3,16 @@ section {
         display: flex;
         box-sizing: 100%;
         justify-content: center;
-        width: 100%;
         padding: 0 5%;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1500px;
     }
 
     .infoContacto {
         display: flex;
         justify-content: center;
         width: 100%;
+        list-style-type: none;
     }
 }

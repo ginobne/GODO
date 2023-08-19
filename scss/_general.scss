@@ -9,10 +9,11 @@ html {
     height: 100%;
 
     body {
+        text-decoration: none;
         font-family: 'Roboto', sans-serif;
         background-color: whitesmoke;
         height: 100%;
-        font-weight: bolder;
+        font-weight:1000;
 
         header {
             background-color: white;
@@ -30,6 +31,14 @@ html {
                 cursor: pointer;
                 height: auto;
             }
+            .logoGodo:hover {
+                width: 235px;
+            }
         }
+        .cajaFondo {
+            background-color: #bfd700;
+            margin-bottom: 5%;
+        }
+        
     }
 }

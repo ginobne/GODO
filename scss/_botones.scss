@@ -1,26 +1,35 @@
+// GRAFICA BOTONES
 .buttonSubmit,
 .buttonReset,
-.servicioBoton,
-.botoncontHome {
-    background-color: $bgBoton;
-    padding: $padBoton;
-    border: none;
-    border-radius: 50px;
-    font-size: $fontSizeBoton;
-    color: $colorBoton;
-    cursor: pointer;
-    margin: 1rem;
-    justify-content: center;
-    align-items: center;
+.botoncontHome,
+.buttonIndex {
+  text-decoration: none;
+  background-color: $bgBoton;
+  padding: $padBoton;
+  border: none;
+  border-radius: 50px;
+  font-size: $fontSizeBoton;
+  color: $colorBoton;
+  cursor: pointer;
+  margin: 1rem;
+  width: 150px;
+  height: 40px;
 }
 
-  /* GRAFICA BOTON VOLVER INICIO */
-.buttonIndex {
-    background-color: $bgBoton;
-    padding: 8px 22px;
-    border: none;
-    border-radius: 50px;
-    font-size: $fontSizeBoton;
-    color: $colorBoton;
-    margin-left: 3%;
+.botoncontHome,
+.buttonSubmit {
+  background-color: white;
+  color: black;
+}
+
+
+// HOVER A BOTONES
+
+.botoncontHome:hover,
+.botoncontHome:hover,
+.buttonIndex:hover,
+.buttonReset:hover,
+.buttonSubmit:hover {
+  width: 155px;
+  height: 42px;
 }

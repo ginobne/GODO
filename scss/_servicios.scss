@@ -1,14 +1,31 @@
 /* GRAFICA SERVICIOS FLEX GRID AREA */
 
-main {
-    .contenedorServicios {
-        gap: 60px;
-        margin: 5% 25%;
-    }
-    .imgCarousel {
-        justify-content: center;
-        align-items: center;
-        width: fit-content;
 
+.grillaServicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.service {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin: 10%;
+}
+
+.imgServ {
+    width: 140px;
+}
+
+/* LAYOUT MOBILE */
+@media (max-width: 768px) {
+    .grillaServicios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .imgServ {
+        width: 100px;
+    }
+    .descripcionServ {
+        font-size: 1.3rem;
     }
 }
